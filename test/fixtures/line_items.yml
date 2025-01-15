@@ -3,7 +3,9 @@
 one:
   product: apple
   cart: one
+  price: 3.50
 
 two:
-  product: apple
-  cart: two
+  product: ruby
+  cart: one
+  price: 5.00
