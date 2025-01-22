@@ -20,5 +20,4 @@ class OrderMailerTest < ActionMailer::TestCase
       <td[^>]*>\s*Programming\sRuby\s1.9\s*</td>
       )x, mail.body.to_s
   end
-
 end
