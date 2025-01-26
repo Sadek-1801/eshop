@@ -24,7 +24,7 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
 
   test "should logout" do
     delete logout_url
-    assert_equal session[:user_id], nil
+    assert_nil session[:user_id]
     assert_redirected_to store_index_url
   end
 end
