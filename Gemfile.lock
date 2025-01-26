@@ -91,6 +91,7 @@ GEM
     aws-sigv4 (1.11.0)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.2.0)
+    bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.12.0)
       msgpack (~> 1.2)
@@ -301,6 +302,7 @@ PLATFORMS
 DEPENDENCIES
   active_storage_validations (= 0.9.8)
   aws-sdk-s3 (= 1.114.0)
+  bcrypt (= 3.1.18)
   bootsnap (= 1.12.0)
   capybara (= 3.37.1)
   debug (= 1.10.0)
